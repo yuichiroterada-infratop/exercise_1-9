@@ -12,14 +12,36 @@ header{
 }
 
 main{
-  padding: 50px 0;
   width: 960px;
+  margin: 50px auto 50px auto;
+  text-align: center;
+  text-align: left;
+  display: flex;
+  justify-content: center;
 }
 
-.main-contents-box{
-  width: 300px;
+.main-content-box{
+  width:300px;
+  margin: 0 15px;
   padding: 10px;
   background-color: #EEEEEE;
 }
 
+.content-img{
+  width: 280px;
+  height: 150px;
+}
+
+
+.content-img:nth-child(1){
+  background-image: url(img/flow01.png);
+}
+
+.content-img:nth-child(2){
+  background-image: url(img/flow02.png);
+}
+
+.content-img:nth-child(3){
+  background-image: url(img/flow03.png);
+}
 
